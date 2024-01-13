@@ -12,11 +12,13 @@
 ;;; Code:
 
 (defun scroll-page-without-moving-point--down ()
+  "Scroll down without moving the point."
   (interactive)
   (next-line)
   (scroll-up 1))
 
 (defun scroll-page-without-moving-point--up ()
+  "Scroll up without moving the point."
   (interactive)
   (previous-line)
   (scroll-down 1))
