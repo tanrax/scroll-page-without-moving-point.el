@@ -21,9 +21,18 @@ Add in your `init.el`.
   :ensure t)
 ```
 
-## Controls
+## Configure
+
+Set the keys you want to use. For example:
 
 | Key | Description |
 | --- | --- |
 | `M-n` | Scroll down |
 | `M-p` | Scroll up |
+
+You can set it in your `init.el`:
+
+```elisp
+(global-set-key "\M-n" 'scroll-page-without-moving-point--down)
+(global-set-key "\M-p" 'scroll-page-without-moving-point--up)
+```

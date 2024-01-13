@@ -11,20 +11,17 @@
 
 ;;; Code:
 
-(defun scroll-page-without-moving-point ()
-  (defun gcm-scroll-down ()
+(defun scroll-page-without-moving-point--down ()
   (interactive)
   (next-line)
   (scroll-up 1))
 
-(defun gcm-scroll-up ()
+(defun scroll-page-without-moving-point--up ()
   (interactive)
   (previous-line)
   (scroll-down 1))
 
-(global-set-key "\M-n" 'gcm-scroll-down)
-(global-set-key "\M-p" 'gcm-scroll-up))
-
-(provide 'scroll-page-without-moving-point)
+(provide 'scroll-page-without-moving-point--down)
+(provide 'scroll-page-without-moving-point--up)
 
 ;;; scroll-page-without-moving-point.el ends here
