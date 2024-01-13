@@ -1,4 +1,4 @@
-;;; scroll-page-without-moving-point.el --- Move the scroll in Emacs without moving the position cursor. -*- lexical-binding: t;
+;;; scroll-page-without-moving-point.el --- Move the scroll without cursor. -*- lexical-binding: t;
 ;;
 ;; Copyright © 2024 Andros Fenollosa
 ;; Authors: Andros Fenollosa <andros@fenollosa.email>
@@ -7,7 +7,7 @@
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;;; Commentary:
-;; Move the scroll in Emacs without moving the position cursor
+;; Move the scroll without moving the position cursor
 
 ;;; Code:
 
@@ -23,5 +23,6 @@
 
 (provide 'scroll-page-without-moving-point--down)
 (provide 'scroll-page-without-moving-point--up)
+(provide 'scroll-page-without-moving-point)
 
 ;;; scroll-page-without-moving-point.el ends here
