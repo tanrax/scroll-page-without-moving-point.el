@@ -1,13 +1,7 @@
 # Move the scroll in Emacs without moving the position cursor.
 ## scroll-page-without-moving-point.el
 
-<video
-    src="demo.mp4"
-    type="video/mp4"
-    loop
-    autoplay
-    muted
-></video>
+![demo](demo.gif)
 
 ## Install
 
