@@ -11,20 +11,18 @@
 
 ;;; Code:
 
-(defun scroll-page-without-moving-point--down ()
+(defun scroll-page-without-moving-point-down ()
   "Scroll down without moving the point."
   (interactive)
-  (next-line)
+  (forward-line 1)
   (scroll-up 1))
 
-(defun scroll-page-without-moving-point--up ()
+(defun scroll-page-without-moving-point-up ()
   "Scroll up without moving the point."
   (interactive)
-  (previous-line)
+  (forward-line -1)
   (scroll-down 1))
 
-(provide 'scroll-page-without-moving-point--down)
-(provide 'scroll-page-without-moving-point--up)
 (provide 'scroll-page-without-moving-point)
 
 ;;; scroll-page-without-moving-point.el ends here
