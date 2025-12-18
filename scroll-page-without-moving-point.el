@@ -1,9 +1,9 @@
-;;; scroll-page-without-moving-point.el --- Move the scroll without cursor. -*- lexical-binding: t;
+;;; scroll-page-without-moving-point.el --- Move the scroll without cursor. -*- lexical-binding: t; -*-
 ;;
 ;; Copyright © 2024 Andros Fenollosa
 ;; Authors: Andros Fenollosa <andros@fenollosa.email>
 ;; URL: https://github.com/tanrax/scroll-page-without-moving-point.el
-;; Version: 1.0.0
+;; Version: 1.0.1
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;;; Commentary:
